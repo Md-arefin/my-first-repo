@@ -1,8 +1,13 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-.nav__container{
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.nav__container {
     display: flex;
     padding: 25px;
     justify-content: space-around;
@@ -10,22 +15,25 @@
     background-color: #585858;
     color: aliceblue;
 }
-.items{
+
+.items {
     display: flex;
     font-size: 22px;
     font-weight: 800;
     padding: 5px;
 }
-.item{
+
+.item {
     margin-right: 10px;
     list-style: none;
 }
+
 /*************************************/
-.banner__container{
+.banner__container {
     width: 100%;
     height: 100vh;
     background-color: browns;
-    background-image: url("./asset/image/background.jpg"), linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3));
+    background-image: url("./asset/image/background.jpg"), linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
     background-blend-mode: overlay;
     display: flex;
     justify-content: center;
@@ -33,20 +41,24 @@
     text-align: center;
     color: white;
 }
-.title__banner{
+
+.title__banner {
     font-size: 85px;
     font-weight: 800;
 }
-.primary{
+
+.primary {
     color: red;
 }
-.description{
+
+.description {
     font-size: 22px;
     width: 50%;
     margin: auto;
     padding: 10px;
 }
-.btn{
+
+.btn {
     padding: 15px 35px;
     border: none;
     border-radius: 5px;
@@ -54,11 +66,90 @@
     margin: 5px;
 
 }
-.btn__discover{
+
+.btn__discover {
     background-color: red;
     color: white;
 }
-.btn__hire{
+
+.btn__hire {
     color: red;
 }
+
 /* ************************************************** */
+.service__container {
+    width: 100%;
+    height: 100vh;
+    background-image: url("./asset/image/footer-bg.png"),
+        linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+    background-blend-mode: overlay;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.service__btn {
+    color: gray;
+    border-radius: 25px;
+}
+.service__title{
+    font-size: 45px;
+}
+.service__description{
+    font-size: 20px;
+    width: 50%;
+    padding: 10px;
+}
+ul{
+    padding: 25px;
+}
+li{
+    list-style-type: decimal-leading-zero;
+}
+.author__details{
+    display: flex;
+    align-items: center;
+}
+.author__img__desc{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-right: 1px solid brown;
+    height: 50px;
+}
+.author__img{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 50px;
+}
+.more__details > button{
+    padding: 15px 35px;
+    color: red;
+}
+.service-up,.service-down{
+    display: flex;
+}
+.service{
+    background-color: white;
+    padding: 10px;
+    box-shadow: 4px 4px 8px gray;
+    width: 200px;
+    height: 200px;
+    text-align:center ;
+    color: black;
+    margin: 10px;
+    border-radius: 10px;
+}
+.service__left__container{
+    width: 50%;
+}
+.service__logo{
+    width: 50%;
+    height: 50%;
+    padding: 20px 0;
+}
+/* ************************************************************* */
