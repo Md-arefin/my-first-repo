@@ -2,7 +2,8 @@
     padding: 0;
     margin: 0;
 }
-img{
+
+img {
     width: 100%;
     height: 100%;
 }
@@ -88,68 +89,142 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
- 
+
 }
 
 .service__btn {
     color: gray;
     border-radius: 25px;
 }
-.service__title{
+
+.service__title {
     font-size: 45px;
 }
-.service__description{
+
+.service__description {
     font-size: 20px;
     width: 50%;
     padding: 10px;
 }
-ul{
+
+ul {
     padding: 25px;
 }
-li{
+
+li {
     list-style-type: decimal-leading-zero;
 }
-.author__details{
+
+.author__details {
     display: flex;
     align-items: center;
 }
-.author__img__desc{
+
+.author__img__desc {
     display: flex;
     align-items: center;
     padding: 20px;
     border-right: 1px solid brown;
     height: 50px;
 }
-.author__img{
+
+.author__img {
     width: 100px;
     height: 100px;
     padding: 10px;
     border-radius: 50px;
 }
-.more__details > button{
+
+.more__details>button {
     padding: 15px 35px;
     color: red;
 }
-.service-up,.service-down{
+
+.service-up,
+.service-down {
     display: flex;
 }
-.service{
+
+.service {
     background-color: white;
     padding: 10px;
     box-shadow: 4px 4px 8px gray;
     width: 200px;
     height: 200px;
-    text-align:center ;
+    text-align: center;
     color: black;
     margin: 10px;
     border-radius: 10px;
 }
-.service__left__container{
+
+.service__left__container {
     width: 50%;
 }
-.service__logo{
+
+.service__logo {
     width: 50%;
     height: 50%;
     padding: 20px 0;
 }
+
 /* ************************************************************* */
+.appointment__section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    background-color: red;
+    color: aliceblue;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 25px;
+    position: relative;
+    bottom: 55px;
+}
+
+.app_description {
+    border-left: 2px solid rgb(255, 255, 255);
+    padding-left: 10px;
+    width: 85%;
+}
+
+.phone-call {
+    display: flex;
+}
+
+.phone-call>h1 {
+    font-size: 18px;
+    padding: 20px 8px;
+}
+
+.call__icons {
+    width: 100px;
+}
+
+footer {
+    width: 100%;
+    height: 60vh;
+    background-image: url("./asset/image/footer-bg.png"), linear-gradient(rgba(0, 0, 0, 0.945), rgba(0, 0, 0, 0.952));
+    background-blend-mode: overlay;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo {
+    width: 170px;
+    height: 45px;
+}
+
+.footer>div {
+    padding-right: 2rem;
+    padding-top: 12rem;
+}
+hr{
+    width: 80%;
+    margin: 5rem;
+}
